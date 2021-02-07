@@ -18,6 +18,7 @@ document.getElementById('submit').addEventListener('click', () => {
 // Display Meal 
 const displayMeal = meals => {
     const mealsDiv = document.getElementById('meals');
+    mealsDiv.innerHTML = '';
     meals.forEach(meal => {
         const mealDiv = document.createElement('div');
         mealDiv.className = 'meal';
