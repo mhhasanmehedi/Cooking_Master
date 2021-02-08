@@ -1,5 +1,26 @@
 body {
     background-color: #EDD263;
+    padding: 0 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.mainmenu ul li {display: inline-block;}
+
+.mainmenu ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: #3B2D64;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #3B2D64;
 }
 
 .search-div {
